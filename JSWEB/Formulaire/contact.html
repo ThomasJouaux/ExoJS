@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <form action="http://bienvu.net/script.php" method="post" id="myform">
+        société <input type="text" value="" id="societe"><br>
+        Personne à contacter : <input type="text" value="" id="contact"><br>
+        Adresse de l'entreprise : <textarea type="text" id="adresseEntreprise"></textarea><br>
+        Code Postal : <input type="text" value="" id="codePostal"><br>
+        ville : <input type="text" value="" id="ville"><br>
+        E-mail : <input type="text" value="" id="e_Mail"> <br>
+        Téléphone : <input type="text" value="" id="numTel"><br>
+     <label for="select"></label>
+
+<select name="deroulantLanguage" id="deroulant">
+    <option value="">Choisissez</option>
+    <option value="Access">Access</option>
+    <option value="Java">Java</option>
+    <option value="Delphi">Delphi</option>
+    <option value="Windev">Windev</option>
+    <option value="Visual Basic">Visual Basic</option>
+    <option value="Power Builder">Power Builder</option>
+    <option value="Internet">Internet</option>
+    <option value="Intranet">Intranet</option>
+    <option value="Windows NT">Windows NT</option>
+    <option value="Unix">Unix</option>
+    <option value="SQL Server">SQL Server</option>
+    <option value="Oracle">Oracle</option>
+    <option value="Autres">Autres...</option>
+</select>
+<textarea type="text" id="areaDeroulant"></textarea><br>
+<button type="submit" id="submitButton">Envoyer</button>
+<button type="reset" id="resetButton">Effacer</button>
+    </form>   
+    <script src="script.js"></script> 
+    </body>
+</html>
